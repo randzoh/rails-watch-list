@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: b1f567bd8456dd720aa9c4bad32d4562f4a38a27
+  branch: master
+  specs:
+    faker (2.20.0)
+      i18n (>= 1.8.11, < 2)
+
+GIT
   remote: https://github.com/heartcombo/simple_form.git
   revision: 60f73d2424a6c53beea77b0779d910768d4fb055
   specs:
@@ -216,6 +224,7 @@ DEPENDENCIES
   autoprefixer-rails (= 10.2.5)
   bootsnap (>= 1.4.4)
   byebug
+  faker!
   font-awesome-sass (~> 5.15)
   jbuilder (~> 2.7)
   listen (~> 3.3)
